@@ -1,5 +1,6 @@
 const path = require('bare-path')
 const { spawn } = require('bare-subprocess')
+const fs = require("bare-fs");
 const program = global.Bare ?? global.Pear
 
 console.log('Running from Pear:', program.argv[0].includes('pear'))
