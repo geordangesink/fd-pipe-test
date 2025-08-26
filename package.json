@@ -1,4 +1,8 @@
 {
+  "main": "parent.js",
+  "pear": {
+    "type": "terminal"
+  },
   "dependencies": {
     "bare-fs": "^4.2.1",
     "bare-path": "^3.0.0",
